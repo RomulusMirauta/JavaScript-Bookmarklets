@@ -11,13 +11,15 @@ II. [SkyShowtime Bookmarklet](#II-skyshowtime-bookmarklet)
 
 <br>
 
-# I. Naruto Arena Bookmarklet
+## I. Naruto Arena Bookmarklet
 
-## Demo
+### Demo
 
 ![Naruto Arena Bookmarklet Demo](NarutoArena/NarutoArenaDemo.gif)
 
-## Links
+<br>
+
+### Links
 - main website: https://www.naruto-arena.site/
 - in-game website: https://www.naruto-arena.site/ingame
 - bookmarklet code (minified, paste into bookmark URL): [NarutoArenaBookmarklet.js](https://github.com/RomulusMirauta/JavaScript-Bookmarklets/blob/main/NarutoArena/NarutoArenaBookmarklet.js)
@@ -25,17 +27,17 @@ II. [SkyShowtime Bookmarklet](#II-skyshowtime-bookmarklet)
 
 <br>
 
-## Purpose
+### Purpose
 To automate the "initial set-up" process - modifying the background color from *the default* white to black & also muting the game's sound.
 
 <br>
 
-## Problem solved
+### Problem solved
 Reduced time spent on repetitive actions - these changes are not automatically saved (in cookies - neither client-side, nor server-side), so this set-up must be done every time a new gaming session takes place.
 
 <br>
 
-## How to use
+### How to use
 1. open your desired browser
 2. access the bookmarklet's code by clicking here: [NarutoArenaBookmarklet.js](https://github.com/RomulusMirauta/JavaScript-Bookmarklets/blob/main/NarutoArena/NarutoArenaBookmarklet.js)
 3. press the sequence of keys `CTRL` and `A` in order to select the entire code
@@ -52,7 +54,7 @@ Reduced time spent on repetitive actions - these changes are not automatically s
 
 <br>
 
-## Compatibility Testing
+### Compatibility Testing
 
 I tested this bookmarklet on the following browsers:<br>
 ✅ Google Chrome <br>
@@ -68,13 +70,15 @@ I tested this bookmarklet on the following platforms:<br>
 <br><hr><br>
 
 
-# II. SkyShowtime Bookmarklet
+## II. SkyShowtime Bookmarklet
 
-## Demo
+### Demo
 
 ![SkyShowtime Bookmarklet Demo](SkyShowtime/SkyShowtimeDemo.gif)
 
-## Links
+<br>
+
+### Links
 - main website: https://www.skyshowtime.com/
 - search page: https://www.skyshowtime.com/watch/search
 - bookmarklet code (minified, paste into bookmark URL): [SkyShowtimeBookmarklet.js](https://github.com/RomulusMirauta/JavaScript-Bookmarklets/blob/main/SkyShowtime/SkyShowtimeBookmarklet.js)
@@ -82,17 +86,17 @@ I tested this bookmarklet on the following platforms:<br>
 
 <br>
 
-## Purpose
+### Purpose
 Automatically opens SkyShowtime's streaming service website, focuses *(clicks on)* the search field and searches for a default phrase (e.g. "Mission Impossible"). Useful to quickly locate all titles in a film series - without manually typing.
 
 <br>
 
-## Problem solved
+### Problem solved
 Removes the need of repeated manual clicking and typing when searching on SkyShowtime. Helpful when the search input is presented via an overlay or has an obfuscated CSS class.
 
 <br>
 
-## How to use
+### How to use
 1. open your desired browser
 2. open the bookmarklet file here: [SkyShowtimeBookmarklet.js](https://github.com/RomulusMirauta/JavaScript-Bookmarklets/blob/main/SkyShowtime/SkyShowtimeBookmarklet.js)
 3. press the sequence of keys `CTRL` and `A` in order to select the entire code
@@ -111,12 +115,12 @@ Removes the need of repeated manual clicking and typing when searching on SkySho
 
 <br>
 
-> **Note:**  
+> [!Note]
 > The bookmarklet targets the element with the selector `.xZpnK1HA4L`. This class may be obfuscated and could change in the future. If the script stops working, update the selector in the beautified source file *([SkyShowtimeCode.js](https://github.com/RomulusMirauta/JavaScript-Bookmarklets/blob/main/SkyShowtime/SkyShowtimeCode.js))*.
 
 <br>
 
-## Compatibility Testing
+### Compatibility Testing
 I tested this bookmarklet on the following browsers:<br>
 ✅ Google Chrome <br>
 ✅ Mozilla Firefox <br>
@@ -125,3 +129,4 @@ I tested this bookmarklet on the following browsers:<br>
 
 I tested this bookmarklet on the following platforms:<br>
 ✅ Windows (11)<br>
+
